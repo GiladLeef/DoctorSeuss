@@ -5,7 +5,7 @@ package locales
 // if it is please add the correct language name.
 
 import (
-	"github.com/GiladLeef/DoctorSeuss/english"
+	_"github.com/GiladLeef/DoctorSeuss/english"
 )
 
 var Locales = []Locale{
