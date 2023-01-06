@@ -78,9 +78,8 @@ func init() {
 			Tag: modules.CurrencyTag,
 			Patterns: []string{
 				"Which currency is used in ",
-				"Give me the used currency of ",
-				"Give me the currency of ",
-				"What is the currency of ",
+				"The currency of ",
+				"currency of",
 			},
 			Responses: []string{
 				"The currency of %s is %s",
