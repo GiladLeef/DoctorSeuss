@@ -5,9 +5,7 @@ package locales
 // if it is please add the correct language name.
 
 import (
-	// Import these packages to trigger the init() function
-	_ "github.com/giladleef/doctorseuss/res/locales/en"
-
+	"github.com/giladleef/doctorseuss/res/locales/en"
 )
 
 var Locales = []Locale{
