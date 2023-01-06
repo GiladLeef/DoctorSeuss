@@ -17,5 +17,4 @@ require (
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sys v0.0.0-20200513112337-417ce2331b5c // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
-	github.com/giladleef/doctorseuss/res/locales/en
 )
