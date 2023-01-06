@@ -177,6 +177,7 @@ func init() {
 				"Remind me to call mom tuesday",
 				"Note that I have an exam",
 				"Remind me that I have a conference call tomorrow at 9pm",
+                                "Remind me",
 			},
 			Responses: []string{
 				"Noted! I will remind you: “%s” for the %s",
