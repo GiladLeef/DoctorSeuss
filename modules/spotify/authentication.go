@@ -25,7 +25,7 @@ var (
 func init() {
 	// Set default value of the callback url
 	if callbackURL == "" {
-		callbackURL = "https://Doctor Seuss-api.herokuapp.com/callback"
+		callbackURL = "http://localhost:8080/callback"
 	}
 
 	// Set default value of the redirect url
