@@ -18,7 +18,7 @@
   },
   
   {
-    "tag": "DoctorSeuss",
+    "tag": "author",
     "patterns": [
       "Who is doctor seuss",
       "Who was doctor seuss"
@@ -31,18 +31,46 @@
   },
 
   {
+    "tag": "founder",
+    "patterns": [
+      "Who is your founder",
+      "Who built you",
+      "Who created you",
+      "Who made you",
+      "Who built doctor seuss",
+      "Who made doctor seuss",
+      "Who created doctor seuss",
+      "Who developed doctor seuss",
+      "Who is your developer"
+
+
+    ],
+    "responses": [
+      "Gilad Leef is my founder - He built me.",
+      "Gilad Leef is my developer - He created me.",
+      "Gilad Leef is my developer - He created me.",
+      "Gilad Leef is my creator - He built me.",
+      "Gilad Leef is my parent - He built me."
+
+    ],
+    "context": ""
+  },
+
+  {
     "tag": "hello",
     "patterns": [
       "Hello",
       "Hi there",
       "What's up",
-      "Whats up"
+      "Whats up",
+      "Hey",
+      "hey"
     ],
     "responses": [
       "Hey!",
       "Hello!",
       "Hi!",
-      "What's up?"
+      "What's up mate?"
     ],
     "context": ""
   },
@@ -124,7 +152,7 @@
       "Can you help me"
     ],
     "responses": [
-      "I can do a lot of things - here are just some of my skills, you can ask me: what is the capital of a country, its currency and its area. A random number. To calculate a math operation."
+      "I can do a lot of things - here are just some of my skills, you can ask me: what is the capital of a country, its currency and its area, To calculate some math operations, or to just recommand you a movie."
     ],
     "context": ""
   },
