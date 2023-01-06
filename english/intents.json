@@ -18,31 +18,12 @@
   },
   
   {
-    "tag": "author",
-    "patterns": [
-      "Who is doctor seuss",
-      "Who was doctor seuss"
-    ],
-    "responses": [
-      "Doctor Seuss was a beloved children's author and illustrator known for his whimsical and imaginative stories. I was named after him.",
-      "Doctor Seuss was a beloved author, who wrote and illustrated over 60 books during his career, including classics like The Cat in the Hat and Green Eggs and Ham. I was named after him."
-    ],
-    "context": ""
-  },
-
-  {
     "tag": "founder",
     "patterns": [
       "Who is your founder",
       "Who built you",
       "Who created you",
-      "Who made you",
-      "Who built doctor seuss",
-      "Who made doctor seuss",
-      "Who created doctor seuss",
-      "Who developed doctor seuss",
-      "Who is your developer"
-
+      "Who made you"
 
     ],
     "responses": [

@@ -6,10 +6,32 @@ import (
 
 func init() {
 	modules.RegisterModules("en", []modules.Module{
-		// AREA
-		// For modules related to countries, please add the translations of the countries' names
-		// or open an issue to ask for translations.
 
+		// KNOWLEDGE
+		{
+			Tag: modules.OpinionTag,
+			Patterns: []string{
+				"what is your opinion about ",
+			},
+			Responses: []string{
+				"%s is %s",
+			},
+			Replacer: modules.OpinionReplacer,
+		},
+
+		{
+			Tag: modules.InfoTag,
+			Patterns: []string{
+				"what is ",
+				"what was ",
+				"who is ",
+				"who was ",
+			},
+			Responses: []string{
+				"%s is %s",
+			},
+			Replacer: modules.InfoReplacer,
+		},
 		{
 			Tag: modules.AreaTag,
 			Patterns: []string{

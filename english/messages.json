@@ -9,6 +9,12 @@
     ]
   },
   {
+    "tag": "no subject",
+    "messages": [
+      "sorry, i don't know about that, yet."
+    ]
+  },
+  {
     "tag": "list reminders",
     "messages": [
       "Hello %s! For today you have these reminders: %s."
