@@ -30,7 +30,7 @@ func init() {
 
 	// Set default value of the redirect url
 	if redirectURL == "" {
-		redirectURL = "https://github.com/GiladLeef/DoctorSeuss/chat"
+		redirectURL = "https://github.com/GiladLeef/DoctorSeuss"
 	}
 
 	// Initialize the authenticator
