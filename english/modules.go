@@ -12,9 +12,24 @@ func init() {
 			Tag: modules.OpinionTag,
 			Patterns: []string{
 				"what is your opinion about ",
+				"what's your opinion about ",
+				"tell me your opinion about ",
 			},
 			Responses: []string{
-				"%s is %s",
+				"My opinion about %s is %s",
+			},
+			Replacer: modules.OpinionReplacer,
+		},
+
+		{
+			Tag: modules.OpinionTag,
+			Patterns: []string{
+				"tell me what do you think about ",
+				"what do you think about ",
+
+			},
+			Responses: []string{
+				"I think that %s is %s",
 			},
 			Replacer: modules.OpinionReplacer,
 		},
@@ -28,7 +43,7 @@ func init() {
 				"who was ",
 			},
 			Responses: []string{
-				"%s is %s",
+				"%s %s",
 			},
 			Replacer: modules.InfoReplacer,
 		},
