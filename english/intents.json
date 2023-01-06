@@ -58,8 +58,8 @@
   {
     "tag": "job",
     "patterns": [
-      "What is your job",
-      "What is your work"
+      "your job",
+      "your work"
     ],
     "responses": [
       "My job is to make you feel like everything is okay.",
