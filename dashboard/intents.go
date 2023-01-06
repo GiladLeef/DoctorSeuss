@@ -32,7 +32,7 @@ func WriteIntents(locale string, intents []analysis.Intent) {
 	bytes, _ := json.MarshalIndent(intents, "", "  ")
 
 	// Write it to the file
-	file, err := os.Create("res/locales/" + locale + "/intents.json")
+	file, err := os.Create("english/intents.json")
 	if err != nil {
 		panic(err)
 	}

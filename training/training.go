@@ -33,7 +33,7 @@ func TrainData(locale string) (inputs, outputs [][]float64) {
 // trained from TrainData() inputs and targets.
 func CreateNeuralNetwork(locale string, ignoreTrainingFile bool) (neuralNetwork network.Network) {
 	// Decide if the network is created by the save or is a new one
-	saveFile := "res/locales/" + locale + "/training.json"
+	saveFile := "english/training.json"
 
 	_, err := os.Open(saveFile)
 	// Train the model if there is no training file

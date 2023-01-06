@@ -32,7 +32,7 @@ func removeStopWords(locale string, words []string) []string {
 	}
 
 	// Read the content of the stopwords file
-	stopWords := string(util.ReadFile("res/locales/" + locale + "/stopwords.txt"))
+	stopWords := string(util.ReadFile("english/stopwords.txt"))
 
 	var wordsToRemove []string
 
