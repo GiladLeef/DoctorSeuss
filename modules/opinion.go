@@ -22,7 +22,7 @@ func OpinionReplacer(locale, entry, response, _ string) (string, string) {
 
 	// If there isn't a subject respond with a message from res/datasets/messages.json
 	if subject.Opinion == "" {
-		responseTag := "no subject"
+		responseTag := "no opinion"
 		return responseTag, util.GetMessage(locale, responseTag)
 	}
 
