@@ -14,6 +14,12 @@
       "sorry, i don't know about that, yet."
     ]
   },
+  {
+    "tag": "no wiki",
+    "messages": [
+      "sorry, i didn't find anything about that online."
+    ]
+  },
     {
     "tag": "no opinion",
     "messages": [

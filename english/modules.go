@@ -20,7 +20,21 @@ func init() {
 			},
 			Replacer: modules.OpinionReplacer,
 		},
+		{
+			Tag: modules.WikiTag,
+			Patterns: []string{
+				"who was ",
+				"who is ",
+				"what was ",
+				"what is ",
+				"wikipedia ",
 
+			},
+			Responses: []string{
+				"%s",
+			},
+			Replacer: modules.WikiReplacer,
+		},
 		{
 			Tag: modules.OpinionTag,
 			Patterns: []string{
@@ -32,20 +46,6 @@ func init() {
 				"I think that %s is %s",
 			},
 			Replacer: modules.OpinionReplacer,
-		},
-
-		{
-			Tag: modules.InfoTag,
-			Patterns: []string{
-				"what is ",
-				"what was ",
-				"who is ",
-				"who was ",
-			},
-			Responses: []string{
-				"%s %s",
-			},
-			Replacer: modules.InfoReplacer,
 		},
 		{
 			Tag: modules.AreaTag,
@@ -209,11 +209,9 @@ func init() {
 		{
 			Tag: modules.ReminderSetterTag,
 			Patterns: []string{
-				"Remind me to cook a breakfast at 8pm",
-				"Remind me to call mom tuesday",
-				"Note that I have an exam",
-				"Remind me that I have a conference call tomorrow at 9pm",
-                                "Remind me",
+				"Remind me ",
+				"Note that i need to ",
+
 			},
 			Responses: []string{
 				"Noted! I will remind you: “%s” for the %s",

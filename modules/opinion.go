@@ -10,8 +10,7 @@ import (
 var (
 	// OpinionTag is the intent tag for its module
 	OpinionTag = "opinion"
-	// ArticleKnowledge is the map of functions to find the article in front of a subject
-	// in different languages
+	ArticleKnowledge = map[string]func(string) string{}
 )
 
 // OpinionReplacer replaces the pattern contained inside the response by the opinion of the subject
